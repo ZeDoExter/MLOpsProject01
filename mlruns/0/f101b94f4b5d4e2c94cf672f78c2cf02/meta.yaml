@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Navapol/Desktop/OOP/SIMINAR/MLOpsProject01/mlruns/0/f101b94f4b5d4e2c94cf672f78c2cf02/artifacts
+end_time: 1725861969354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f101b94f4b5d4e2c94cf672f78c2cf02
+run_name: incongruous-fowl-304
+run_uuid: f101b94f4b5d4e2c94cf672f78c2cf02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725861964352
+status: 3
+tags: []
+user_id: Navapol

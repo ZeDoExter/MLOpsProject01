@@ -1,6 +1,6 @@
-from src.mlProject.constants import *
-from src.mlProject.utils.common import read_yaml, create_directories 
-from src.mlProject.entity.config_entity import DataIngestionConfig, DataTransformationConfig, DataValidationConfig, ModelEvaluationConfig, ModelTrainerConfig
+from mlProject.constants import *
+from mlProject.utils.common import read_yaml, create_directories 
+from mlProject.entity.config_entity import DataIngestionConfig, DataTransformationConfig, DataValidationConfig, ModelEvaluationConfig, ModelTrainerConfig
 
 class ConfigurationManager:
     def __init__(

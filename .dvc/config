@@ -1,0 +1,4 @@
+[core]
+    remote = mysuckbucket
+['remote "mysuckbucket"']
+    url = s3://mysuckbucket

@@ -1,6 +1,7 @@
 pandas 
 mlflow==2.2.2
 notebook
+dvc
 numpy
 scikit-learn
 matplotlib
