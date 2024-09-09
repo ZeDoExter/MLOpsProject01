@@ -13,10 +13,10 @@ from typing import Any
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
-    """reads yaml file and returns
+    """Reads yaml file and returns
 
     Args:
-        path_to_yaml (str): path like input
+        path_to_yaml (Path): path-like input
 
     Raises:
         ValueError: if yaml file is empty
@@ -26,13 +26,16 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         ConfigBox: ConfigBox type
     """
     try:
-        with open(path_to_yaml) as yaml_file:
+        with open(path_to_yaml, 'r', encoding='utf-8') as yaml_file:
             content = yaml.safe_load(yaml_file)
-            logger.info(f"yaml file: {path_to_yaml} loaded successfully")
+            if content is None:
+                raise ValueError("YAML file is empty or could not be parsed.")
+            logger.info(f"YAML file: {path_to_yaml} loaded successfully")
             return ConfigBox(content)
     except BoxValueError:
-        raise ValueError("yaml file is empty")
+        raise ValueError("YAML file is empty")
     except Exception as e:
+        logger.error(f"Error loading YAML file: {e}")
         raise e
     
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Navapol/Desktop/OOP/SIMINAR/MLOpsProject01/mlruns/0/cec472fb2baa48e0b3f5115b50739aae/artifacts
+end_time: 1725851574307
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cec472fb2baa48e0b3f5115b50739aae
+run_name: orderly-moth-116
+run_uuid: cec472fb2baa48e0b3f5115b50739aae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725851569889
+status: 3
+tags: []
+user_id: Navapol
