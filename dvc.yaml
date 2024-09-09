@@ -12,6 +12,7 @@
     deps:
       - src/mlProject/pipeline/stage_02_data_validation.py
       - config/config.yaml
+      - schema.yaml
     outs:
       - artifacts/data_validation
 

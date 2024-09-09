@@ -24,6 +24,10 @@ stages:
       hash: md5
       md5: 1ef8a3f47badf55668bdc8f8225b56fb
       size: 1034
+    - path: schema.yaml
+      hash: md5
+      md5: 4f468903278f2ec0b2ae9fc320f89490
+      size: 339
     - path: src/mlProject/pipeline/stage_02_data_validation.py
       hash: md5
       md5: 63b84e8693aa6e6f91f2961448e44d67
